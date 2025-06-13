@@ -22,7 +22,6 @@ This behaviour can be explained by the NFS buffer cache. By default, when you ar
     caption="[Image by Howard Hwa, Brian Kennedy, Ken Myers, and Robert Wei](https://read.seas.harvard.edu/~kohler/class/05f-osp/notes/lec18.html)"
     >}}
 
-
 However, if your application is heavily dependent on consistency, i.e. it needs to be available on another client as soon as the write is made, this buffer will not be ideal for you. Instead, you can then opt-in to allow writes to be written directly to the server, bypassing the cache. This can be controlled by the `sync` NFS mount option. By default, the NFS client will use the `async` mount option unless specified otherwise. `async` refers to asynchronous, where data is flushed asynchronously to the main server. If you switch to using the `sync` mount option, data will be flushed to the server immediately, which allows for greater consistency but at a great performance cost. Referring to the [NFS man pages](https://linux.die.net/man/5/nfs):
 
 
