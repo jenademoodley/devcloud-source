@@ -9,8 +9,8 @@ weight = 10
 showHero = true
 heroStyle = 'big'
 summary = 'Summary'
-categories = ['AWS', 'ECS']
-tags = ['AWS', 'ECS']
+categories = ['AWS']
+tags = ['ECS']
 +++
 
 ## The Port Mapping Problem

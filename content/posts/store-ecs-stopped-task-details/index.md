@@ -9,8 +9,8 @@ weight = 10
 showHero = true
 heroStyle = 'background'
 summary = 'Summary'
-categories = ['AWS', 'ECS']
-tags = ['AWS', 'ECS', 'CloudWatch']
+categories = ['AWS']
+tags = ['ECS', 'CloudWatch']
 +++
 
 
