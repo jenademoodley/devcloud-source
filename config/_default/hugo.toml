@@ -72,3 +72,7 @@ enableEmoji = true
 [services]
   [services.disqus]
     shortname = 'disqus_zUZvOnbSnR'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
