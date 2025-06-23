@@ -22,26 +22,31 @@
   name = "EC2"
   parent = "AWS Cloud"
   weight = 10
+  pageRef = "tags/ec2"
 
 [[main]]
   name = "ECS"
   parent = "AWS Cloud"
   weight = 10
+  pageRef = "tags/ecs"
 
 [[main]]
   name = "ECR"
   parent = "AWS Cloud"
   weight = 20
+  pageRef = "tags/ecr"
 
 [[main]]
   name = "EFS"
   parent = "AWS Cloud"
   weight = 20
+  pageRef = "tags/efs"
 
 [[main]]
   name = "ELB"
   parent = "AWS Cloud"
   weight = 20
+  pageRef = "tags/elb"
 
 
 ###################################

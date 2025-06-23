@@ -2,6 +2,7 @@
 date = 2020-07-25
 draft = false
 title = 'The NFS Buffer Cache'
+url = 'the-nfs-buffer-cache'
 weight = 10
 [params]
   author = 'Jenade Moodley'

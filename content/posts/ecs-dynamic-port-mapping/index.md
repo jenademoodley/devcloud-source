@@ -2,6 +2,7 @@
 date = 2020-07-24
 draft = false
 title = 'ECS - Dynamic Port Mapping'
+url = 'ecs-dynamic-port-mapping'
 description = 'How to use ECS Dynamic Port Mapping'
 weight = 10
 [params]
@@ -10,7 +11,7 @@ showHero = true
 heroStyle = 'big'
 summary = 'Summary'
 categories = ['AWS']
-tags = ['ECS']
+tags = ['ECS', 'ELB', 'ALB']
 +++
 
 ## The Port Mapping Problem

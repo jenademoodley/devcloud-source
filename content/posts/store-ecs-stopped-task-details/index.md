@@ -2,6 +2,7 @@
 date = 2020-10-08
 draft = false
 title = 'How to store ECS Stopped Task Details'
+url = 'how-to-store-ecs-stopped-task-details'
 description = 'How to store the task details for ECS stopped tasks using EventBridge and CloudWatch logs'
 weight = 10
 [params]
