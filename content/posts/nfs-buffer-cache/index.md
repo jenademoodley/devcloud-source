@@ -4,8 +4,8 @@ draft = false
 title = 'The NFS Buffer Cache'
 url = 'the-nfs-buffer-cache'
 weight = 10
-[params]
-  author = 'Jenade Moodley'
+showAuthor = false
+authors = ["jenademoodley"]
 showTableOfContents = true
 categories = ['Linux']
 tags = ['NFS']

@@ -5,8 +5,8 @@ title = 'ECS - Dynamic Port Mapping'
 url = 'ecs-dynamic-port-mapping'
 description = 'How to use ECS Dynamic Port Mapping'
 weight = 10
-[params]
-  author = 'Jenade Moodley'
+showAuthor = false
+authors = ["jenademoodley"]
 showHero = true
 heroStyle = 'big'
 summary = 'Summary'

@@ -5,8 +5,8 @@ title = 'Understanding Least Outstanding Requests ALB Load Balancing Algorithm'
 url = 'understanding-alb-least-outstanding-request'
 description = 'Understanding Least Outstanding Requests ALB Load Balancing Algorithm'
 weight = 10
-[params]
-  author = 'Jenade Moodley'
+showAuthor = false
+authors = ["jenademoodley"]
 showHero = false
 categories = ['AWS']
 tags = ['ELB', 'ALB']
