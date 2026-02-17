@@ -5,8 +5,8 @@ title = 'How to store ECS Stopped Task Details'
 url = 'how-to-store-ecs-stopped-task-details'
 description = 'How to store the task details for ECS stopped tasks using EventBridge and CloudWatch logs'
 weight = 10
-[params]
-  author = 'Jenade Moodley'
+showAuthor = false
+authors = ["jenademoodley"]
 showHero = true
 heroStyle = 'background'
 summary = 'Summary'

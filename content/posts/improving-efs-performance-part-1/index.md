@@ -5,8 +5,8 @@ title = 'Why is my EFS slow?'
 url = 'improving-efs-performance-part-1'
 description = 'How to diagnose EFS performance issues'
 weight = 10
-[params]
-  author = 'Jenade Moodley'
+showAuthor = false
+authors = ["jenademoodley"]
 showHero = true
 heroStyle = 'background'
 categories = ['AWS']

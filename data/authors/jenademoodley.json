@@ -1,0 +1,10 @@
+{
+  "name": "Jenade Moodley",
+  "image": "img/jenade.jpg",
+  "bio": "Cloud Engineer",
+  "social": [
+    { "linkedin": "https://linkedin.com/in/jenademoodley" },
+    { "github": "https://github.com/jenademoodley" },
+    { "email": "jenademoodley68+devcloud@gmail.com" }
+  ]
+}

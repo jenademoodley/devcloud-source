@@ -76,3 +76,6 @@ enableEmoji = true
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[permalinks]
+  posts = ':filename'
