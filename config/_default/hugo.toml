@@ -78,4 +78,4 @@ enableEmoji = true
     dir = ':cacheDir/images'
 
 [permalinks]
-  posts = ':filename'
+  posts = ':contentbasename'

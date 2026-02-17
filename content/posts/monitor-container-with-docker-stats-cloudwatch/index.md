@@ -8,7 +8,7 @@ showAuthor = false
 authors = ["jenademoodley"]
 showTableOfContents = true
 categories = ['AWS']
-tags = ['ECS', 'Docker', 'CloudWatch']
+tags = ['EC2', 'ECS', 'Docker', 'CloudWatch']
 +++
 
 {{< alert >}}
