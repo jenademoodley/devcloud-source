@@ -12,6 +12,10 @@ categories = ['AWS']
 tags = ['EC2']
 +++
 
+<p class="text-xs text-neutral-500 dark:text-neutral-400"> Image:
+    <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://www.freepik.com/" title="cloud icons">Freepik</a>
+</p>
+
 If you are an AWS beginner, or even an avid AWS user, you may experience times when your EC2 instance grinds to a halt for no apparent reason. This impact to performance is because you hit a limit, and are now being throttled. In any server, there are four resources you need to monitor:
 
 1. CPU

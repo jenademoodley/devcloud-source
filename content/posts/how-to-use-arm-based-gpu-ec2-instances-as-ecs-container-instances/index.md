@@ -12,6 +12,10 @@ categories = ['AWS']
 tags = ['EC2', 'ECS', 'ARM']
 +++
 
+<p class="text-xs text-neutral-500 dark:text-neutral-400"> Image:
+    <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://blogs.nvidia.com/blog/ngc-storefront-aws-marketplace/" title="cloud icons">NVIDIA</a>
+</p>
+
 With new EC2 instance types such as G5g, you can now use GPUs with ARM on EC2. While ECS offers some the ECS-optimized AMI as a way to quickly setup your EC2 instances for ECS workloads, you will find that the GPU optimized AMI is only for the `x86` platform, and there is no support for ARM-based GPU instances. The reason for this is quite simple; NVIDIA GPU container workloads require the `nvidia-docker` container runtime, and support is not yet available for Amazon Linux. Support is only available for CentOS 8, RHEL 8, RHEL 9, and Ubuntu versions 18.04 and above. You can review the supported distributions in [`nvidia-docker` documentation](https://nvidia.github.io/nvidia-docker/).
 
 Given that [CentOS 8 has reached End Of Life](https://www.centos.org/centos-linux-eol/) and [RedHat has dropped support for the Docker runtime engine](https://www.techrepublic.com/article/a-matter-of-license-and-lock-in/), that leaves us only with Ubuntu. You could try and setup Docker on CentOS or RHEL, but given the lack of support this would not be advisable.
