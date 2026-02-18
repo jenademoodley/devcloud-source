@@ -71,7 +71,7 @@ enableEmoji = true
 
 [services]
   [services.disqus]
-    shortname = 'disqus_zUZvOnbSnR'
+    shortname = 'devcloud-co-za'
 
 [caches]
   [caches.images]
